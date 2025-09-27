@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Output in JavaScript</title>
+</head>
+<body>
+  <h1>Different Ways to Display Output</h1>
+  <p id="domOutput"></p>
+
+  <script>
+    // alert popup
+    alert("This is an alert message.");
+
+    // writing directly to the page
+    document.write("This text is written using document.write.<br>");
+
+    // output in console
+    console.log("This message is logged to the console.");
+
+    // output using DOM
+    document.getElementById("domOutput").innerText = "This text is displayed using innerText.";
+  </script>
+</body>
+</html>
