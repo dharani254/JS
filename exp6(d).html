@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Background Image</title>
+  <style>
+    /* Apply a fixed background image */
+    body {
+      background-image: url('https://t4.ftcdn.net/jpg/05/45/42/81/360_F_545428173_uyYWJoR9n5uJFYIWfDa2C49AzIECcU20.jpg');
+      background-position: center 50%; /* Center horizontally and halfway down */
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Keep background fixed during scroll */
+      background-size: cover; /* Cover the entire viewport */
+      height: 200vh; /* Height to allow scrolling */
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Content box styling */
+    .content {
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 30px auto;
+      padding: 20px;
+      width: 80%;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <p>This example demonstrates how to place a background image halfway down the page, tilt it horizontally, and keep it fixed while scrolling.</p>
+  </div>
+
+  <div class="content">
+    <h1>Welcome to the Page</h1>
+    <p>Scroll down to see the fixed background image effect.</p>
+  </div>
+
+</body>
+</html>
